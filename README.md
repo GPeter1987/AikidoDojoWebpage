@@ -2,12 +2,12 @@
 This is the webpage of my dojo.
 
 ## _This project webpage is a part of the full dojo project_
-## The project will contains the following parts:
+## _The project will contains the following parts:_
 - Webpage frontend
 - webpage backend
 - Training administration system
 
-## _Technologies in the project_
+## _Technologies in the project:_
 - HTML
 - CSS
 - Bootstrap v5.0
