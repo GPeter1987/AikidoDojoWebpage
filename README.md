@@ -1,7 +1,7 @@
 # AikidoDojoWebpage
 This is the webpage of my dojo.
 
-## _This project webpage of full dojo project_
+## _This project webpage is a part of the full dojo project_
 ## The project will contains the following parts:
 - Webpage frontend
 - webpage backend
