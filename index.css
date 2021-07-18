@@ -1,0 +1,37 @@
+/*
+Fontok:
+Sima szöveghez -> font-family: 'Roboto', sans-serif;
+Főcímekhez -> font-family: 'Anton', sans-serif;
+Színkódok:
+
+*/
+
+:root {
+    --mainText: 'Anton', sans-serif;
+    --simpleText: 'Roboto', sans-serif;
+    --mainColor: #ffffff;
+    --secColor: #d6d6d6;
+    --alertColor: #fc2803;
+    --titleBg: #7a7b80;
+}
+
+h1 {
+    font-family: var(--mainText);
+}
+
+p {
+    font-family: var(--simpleText);
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+#welcome {
+    min-height: 60vh;
+}
+
+.title-row {
+    background-image: url("images/TitleBg.png");
+}
