@@ -14,3 +14,6 @@ This is the webpage of my dojo.
 - JS
 - NODE JS
 - MySQL
+
+## Live view of the page:
+- https://gpeter1987.github.io/AikidoDojoWebpage/
