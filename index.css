@@ -1,14 +1,15 @@
 /*
 Fontok:
-Sima szöveghez -> font-family: 'Roboto', sans-serif;
+Sima szöveghez -> font-family: 'Poppins', sans-serif;
 Főcímekhez -> font-family: 'Anton', sans-serif;
+    
 Színkódok:
 
 */
 
 :root {
     --mainText: 'Anton', sans-serif;
-    --simpleText: 'Roboto', sans-serif;
+    --simpleText: 'Poppins', sans-serif;
     --mainColor: #ffffff;
     --secColor: #d6d6d6;
     --alertColor: #fc2803;
