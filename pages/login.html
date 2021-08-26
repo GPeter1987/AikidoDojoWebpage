@@ -11,8 +11,26 @@
         <link href="../index.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <div class="container">
-            <h1>Teszt Login page</h1>
+        <div class="container p-3">
+            <h1 class="text text-center">Teszt Login page</h1>
+            <div class="row justify-content-center">
+                <form action="" class="bg-light p-3 col-md-6">
+                    <div class="mb-3">
+                        <label class="form-label" for="user">Felhasználónév:</label>
+                        <input class="form-control" type="text" id="user">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="pass">Jelszó:</label>
+                        <input class="form-control" type="password" id="pass">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-check-label" for="saveCredentials">Emlékezz rám</label>
+                        <input type="checkbox" id="saveCredentials">
+                        <div class="form-text">Ha bejelölöd akkor a bejelentkezési adataid mentésre kerülnek és nem kell mindig megadnod őket.</div>
+                    </div>
+                    <button class="btn btn-primary" type="submit">Belépés</button>
+                </form>
+            </div>
         </div>
     </body>
 </html>
