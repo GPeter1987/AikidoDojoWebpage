@@ -17,3 +17,6 @@ This is the webpage of my dojo.
 
 ## Live view of the page:
 - https://gpeter1987.github.io/AikidoDojoWebpage/
+
+## Live page:
+- www.chuushindojo.hu
