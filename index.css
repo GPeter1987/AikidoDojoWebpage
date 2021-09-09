@@ -26,25 +26,6 @@ p {
     font-family: var(--simpleText);
 }
 
-#aikido p {
-    font-size: 1.5rem;
-}
-h5 {
-    font-size: 2rem;
-}
-
-#masters p {
-    font-size: 1.5rem;
-}
-
-#training p {
-    font-size: 1.5rem;
-}
-
-#contacts p {
-    font-size: 1.5rem;
-}
-
 body {
     width: 100vw;
     height: 100vh;
