@@ -43,3 +43,45 @@ a span{
     font-family: var(--mainText);
     font-size: 1.5rem;
 }
+
+#socMedPanel {
+    position: fixed;
+    top: 20vh;
+    width: 2vw;
+    max-width: 25px;
+    height: 100px;
+    background-color: #FFC107;
+    border: 1px solid black;
+    border-radius: 0px 10px 10px 0px;
+}
+
+#socTitle {
+    transform: rotate(270deg);
+    text-align: center;
+    display: block;
+    position: relative;
+    top: 70px;
+    font-size: 18px;
+    font-family: var(--simpleText);
+}
+
+.socMedItem {
+    display: none;
+}
+
+#socMedPanel:hover {
+    width: 60px;
+    max-width: 150px;
+    height: auto;
+    background-color: rgb(68, 68, 68);
+    transition: 1000ms;
+}
+
+#socMedPanel:hover .socMedItem {
+    display: block;
+    color: white;
+}
+
+#socMedPanel:hover #socTitle {
+    display: none;
+}
