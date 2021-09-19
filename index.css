@@ -16,6 +16,7 @@ Színkódok:
     --alertColor: #fc2803;
     --titleBg: #7a7b80;
     --newOrange : #E67E22;
+    --warningColor: #FFC107;
 }
 
 h1 {
@@ -35,8 +36,8 @@ body {
     min-height: 30vh;
 }
 
-.title-row {
-    background-image: url("images/TitleBg.png");
+#aikido .container div div img {
+    filter: grayscale(70%);
 }
 
 a span{
@@ -50,9 +51,10 @@ a span{
     width: 2vw;
     max-width: 25px;
     height: 100px;
-    background-color: #FFC107;
+    background-color: var(--warningColor);
     border: 1px solid black;
     border-radius: 0px 10px 10px 0px;
+    transition: width 1s, height 2s;
 }
 
 #socTitle {
@@ -60,8 +62,8 @@ a span{
     text-align: center;
     display: block;
     position: relative;
-    top: 70px;
-    font-size: 18px;
+    top: 65px;
+    font-size: 15px;
     font-family: var(--simpleText);
 }
 
@@ -73,8 +75,7 @@ a span{
     width: 60px;
     max-width: 150px;
     height: auto;
-    background-color: rgb(68, 68, 68);
-    transition: 1000ms;
+    background-color: var(--titleBg);
 }
 
 #socMedPanel:hover .socMedItem {
