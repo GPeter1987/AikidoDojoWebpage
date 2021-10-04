@@ -1,22 +1,15 @@
-/*
-Fontok:
-Sima szöveghez -> font-family: 'Poppins', sans-serif;
-Főcímekhez -> font-family: 'Anton', sans-serif;
-#E67E22
-    
-Színkódok:
-
-*/
-
 :root {
     --mainText: 'Anton', sans-serif;
     --simpleText: 'Poppins', sans-serif;
-    --mainColor: #ffffff;
-    --secColor: #d6d6d6;
-    --alertColor: #fc2803;
-    --titleBg: #7a7b80;
-    --newOrange : #E67E22;
+    --mainColor:    #ffffff;
+    --secColor:     #d6d6d6;
+    --alertColor:   #fc2803;
+    --titleBg:      #7a7b80;
+    --newOrange :   #E67E22;
     --warningColor: #FFC107;
+    /* V2 */
+    --backgroundColor: #09192D;
+    --highLightColour: #60E7CC;
 }
 
 h1 {
